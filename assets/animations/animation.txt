@@ -1,0 +1,17 @@
+  <Animatable.Image
+            animation="bounceInLeft"
+            source={require("./assets/images/Emoji.png")}
+            resizeMode="contain"
+            className="h-[350px] w-[350px]"
+    />
+
+
+     <LottieView
+            autoPlay
+            ref={animation}
+            style={{
+              width: 350,
+              height: 350,
+            }}
+            source={require('./assets/animations/emoji.json')}
+          />
